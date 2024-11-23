@@ -1,13 +1,27 @@
 #body {
-    background-color: pink;
+    background-color: rgb(238, 152, 167);
 }
 
-#h2{
-    color: white;
+#h2 {
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    -webkit-text-fill-color: rgb(231, 134, 150);
+    background-color: pink;
     border-radius: 10px;
-    border-color: #efabee;
-    padding: 20px;
+    border-style: solid;
+    border-color: rgb(243, 210, 215);
+    border-width: 3px;
+    padding: 25px;
+}
+
+#todo{
     margin: 10px;
+    text-align: center;
+}
+
+#add {
+    border-radius: 5px;
+    border-color: white;
+    background-color: pink;
+    color:white;
+    outline-offset: 2px;
 }
